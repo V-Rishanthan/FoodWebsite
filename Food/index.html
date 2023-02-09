@@ -1,0 +1,1144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eastern Eat</title>
+    <!--================== CSS LINK ====================-->
+    <link rel="stylesheet" href="./css/style.css">
+    <!--================== ICONS CDN LINK ====================-->
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+    <!--================== GOOGLE FONT  LINK ====================-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="overlay" data-overlay></div>
+    <!--==================  HEADER SECTION ====================-->
+    <header>
+    
+      <nav class="nav__wrapper">
+
+        <a href="#home" class="logo">Eastern <span>Eat</span></a>
+    
+        <div class="desktop__navigation--menu">
+    
+          <ul class="desktop-menu-category-list">
+    
+            <li class="menu-category">
+              <a href="#home" class="menu-title">Home</a>
+            </li>
+    
+            <li class="menu-category">
+              <a href="#" class="menu-title">Menu</a>
+              <div class="dropdown-panel">
+    
+                <ul class="dropdown-panel-list">
+                  <li class="menu-title">
+                    <a href="#">Burger</a>
+                  </li>
+    
+                  <li class="panel-list-item">
+                    <a href="#">Cheese-burger</a>
+                  </li>
+    
+                  <li class="panel-list-item">
+                    <a href="#">Veggie burger</a>
+                  </li>
+    
+                  <li class="panel-list-item">
+                    <a href="#">Beef burger</a>
+                  </li>
+    
+                  <li class="panel-list-item">
+                    <a href="#">Black burger</a>
+                  </li>
+    
+                  <li class="panel-list-item">
+                    <a href="#">Slider burger</a>
+                  </li>
+                </ul>
+    
+                <ul class="dropdown-panel-list">
+                  <li class="menu-title">
+                    <a href="#">Pizza</a>
+                  </li>
+    
+                  <li class="panel-list-item">
+                    <a href="#">Sicilian pizza</a>
+                  </li>
+    
+                  <li class="panel-list-item">
+                    <a href="#">New York-style pizza</a>
+                  </li>
+    
+                  <li class="panel-list-item">
+                    <a href="#">Chicago-style pizza</a>
+                  </li>
+    
+                  <li class="panel-list-item">
+                    <a href="#">Calzone pizza</a>
+                  </li>
+    
+                  <li class="panel-list-item">
+                    <a href="#">Greek pizza</a>
+                  </li>
+
+                </ul>
+    
+                <ul class="dropdown-panel-list">
+                  <li class="menu-title">
+                    <a href="#">Briyani</a>
+                  </li>
+    
+                  <li class="panel-list-item">
+                    <a href="#">Mutton briyani</a>
+                  </li>
+    
+                  <li class="panel-list-item">
+                    <a href="#">Hyderabadi briyani</a>
+                  </li>
+    
+                  <li class="panel-list-item">
+                    <a href="#">Veg briyani</a>
+                  </li>
+    
+                  <li class="panel-list-item">
+                    <a href="#">Sindhi briyani</a>
+                  </li>
+    
+                  <li class="panel-list-item">
+                    <a href="#">Malabar briyani</a>
+                  </li>
+                </ul>
+    
+                <ul class="dropdown-panel-list">
+                  <li class="menu-title">
+                    <a href="#">Curry</a>
+                  </li>
+    
+                  <li class="panel-list-item">
+                    <a href="#">Korma</a>
+                  </li>
+    
+                  <li class="panel-list-item">
+                    <a href="#">Chicken tikka masala</a>
+                  </li>
+    
+                  <li class="panel-list-item">
+                    <a href="#">Chicken curry</a>
+                  </li>
+    
+                  <li class="panel-list-item">
+                    <a href="#">Yellow curry</a>
+                  </li>
+    
+                  <li class="panel-list-item">
+                    <a href="#">Red curry</a>
+                  </li>
+                </ul>
+    
+              </div>
+            </li>
+    
+            <li class="menu-category">
+              <a href="#special" class="menu-title">Special</a>
+            </li>
+    
+            <li class="menu-category">
+              <a href="#" class="menu-title">About</a>
+            </li>
+    
+            <li class="menu-category">
+              <a href="#reviews" class="menu-title">Reviews</a>
+            </li>
+
+            <li class="menu-category">
+              <a href="#footer" class="menu-title">Contact</a>
+            </li>
+    
+          </ul>
+    
+        </div>
+    
+        <div class="nav__desktop--icons">
+    
+          <ul class="nav__icons">
+            <li class="icon">
+              <a href="#" class="icon__link">
+                <i class="uil uil-shopping-bag"></i>
+                <span class="count">0</span>
+              </a>
+            </li>
+    
+            <li class="icon">
+              <a href="#" class="icon__link">
+                <i class="uil uil-user"></i>
+              </a>
+            </li>
+
+            <li class="icon" data-mobile-menu-open-filter id="filter__icon">
+              <a href="#" class="icon__link">
+                <i class="uil uil-filter"></i>
+              </a>
+            </li>
+    
+            <li class="icon hamBerger" data-mobile-menu-open-btn>
+              <a href="#" class="icon__link">
+                <i class="uil uil-align-justify"></i>
+              </a>
+            </li>
+    
+    
+          </ul>
+    
+        </div>
+    
+    
+    
+        <nav class="mobile-navigation-menu  has-scrollbar" data-mobile-menu>
+    
+          <div class="menu-top">
+            <h2 class="menu-title">Menu</h2>
+    
+            <button class="menu-close-btn" data-mobile-menu-close-btn>
+              <i class="uil uil-multiply"></i>
+            </button>
+          </div>
+    
+          <ul class="mobile-menu-category-list">
+    
+            <li class="menu-category">
+              <a href="index.html" class="menu-title">Home</a>
+            </li>
+    
+            <li class="menu-category">
+              <button class="accordion-menu" data-accordion-btn>
+                <p class="menu-title">Berger</p>
+    
+                <div>
+                  <i class="uil uil-plus" class="add-icon"></i>
+                  <i class="uil uil-minus" class="remove-icon"></i>
+                </div>
+              </button>
+    
+              <ul class="submenu-category-list" data-accordion>
+                <li class="submenu-category">
+                  <a href="#" class="submenu-title">Cheese-Burger</a>
+                </li>
+    
+                <li class="submenu-category">
+                  <a href="#" class="submenu-title">Veggie Burger</a>
+                </li>
+    
+                <li class="submenu-category">
+                  <a href="#" class="submenu-title">Black Burger</a>
+                </li>
+    
+                <li class="submenu-category">
+                  <a href="#" class="submenu-title">Slider Burger</a>
+                </li>
+              </ul>
+    
+            </li>
+    
+            <li class="menu-category">
+              <button class="accordion-menu" data-accordion-btn>
+                <p class="menu-title">Pizza</p>
+    
+                <div>
+                  <i class="uil uil-plus" class="add-icon"></i>
+                  <i class="uil uil-minus" class="remove-icon"></i>
+                </div>
+              </button>
+    
+              <ul class="submenu-category-list" data-accordion>
+                <li class="submenu-category">
+                  <a href="#" class="submenu-title">Sicilian Pizza</a>
+                </li>
+    
+                <li class="submenu-category">
+                  <a href="#" class="submenu-title">New York-Style Pizza</a>
+                </li>
+    
+                <li class="submenu-category">
+                  <a href="#" class="submenu-title">Chicago-Style Pizza</a>
+                </li>
+    
+                <li class="submenu-category">
+                  <a href="#" class="submenu-title">Calzone Pizza</a>
+                </li>
+
+                <li class="submenu-category">
+                  <a href="#" class="submenu-title">Greek Pizzaa</a>
+                </li>
+              </ul>
+    
+            </li>
+    
+            <li class="menu-category">
+              <button class="accordion-menu" data-accordion-btn>
+                <p class="menu-title">Briyani</p>
+    
+                <div>
+                  <i class="uil uil-plus" class="add-icon"></i>
+                  <i class="uil uil-minus" class="remove-icon"></i>
+                </div>
+              </button>
+    
+              <ul class="submenu-category-list" data-accordion>
+    
+                <li class="submenu-category">
+                  <a href="#" class="submenu-title">Mutton Briyani</a>
+                </li>
+    
+                <li class="submenu-category">
+                  <a href="#" class="submenu-title">Hyderabadi Briyani</a>
+                </li>
+    
+                <li class="submenu-category">
+                  <a href="#" class="submenu-title">Veg Briyani</a>
+                </li>
+    
+                <li class="submenu-category">
+                  <a href="#" class="submenu-title">Sindhi Briyani</a>
+                </li>
+
+                <li class="submenu-category">
+                  <a href="#" class="submenu-title">Malabar Briyani</a>
+                </li>
+    
+              </ul>
+            </li>
+    
+            <li class="menu-category">
+    
+              <button class="accordion-menu" data-accordion-btn>
+                <p class="menu-title">Curry</p>
+    
+                <div>
+                  <i class="uil uil-plus" class="add-icon"></i>
+                  <i class="uil uil-minus" class="remove-icon"></i>
+                </div>
+              </button>
+    
+              <ul class="submenu-category-list" data-accordion>
+    
+                <li class="submenu-category">
+                  <a href="#" class="submenu-title">Korma</a>
+                </li>
+    
+                <li class="submenu-category">
+                  <a href="#" class="submenu-title">Chicken Tikka Masala</a>
+                </li>
+    
+                <li class="submenu-category">
+                  <a href="#" class="submenu-title">Chicken Curry</a>
+                </li>
+    
+                <li class="submenu-category">
+                  <a href="#" class="submenu-title">Yellow Curry</a>
+                </li>
+
+                <li class="submenu-category">
+                  <a href="#" class="submenu-title">Red Curry</a>
+                </li>
+    
+              </ul>
+    
+            </li>
+    
+            <li class="menu-category">
+    
+              <button class="accordion-menu" data-accordion-btn>
+                <p class="menu-title">Sweets</p>
+    
+                <div>
+                  <i class="uil uil-plus" class="add-icon"></i>
+                  <i class="uil uil-minus" class="remove-icon"></i>
+                </div>
+              </button>
+    
+              <ul class="submenu-category-list" data-accordion>
+    
+                <li class="submenu-category">
+                  <a href="#" class="submenu-title">Clothes Perfume</a>
+                </li>
+    
+                <li class="submenu-category">
+                  <a href="#" class="submenu-title">Deodorant</a>
+                </li>
+    
+                <li class="submenu-category">
+                  <a href="#" class="submenu-title">Flower Fragrance</a>
+                </li>
+    
+                <li class="submenu-category">
+                  <a href="#" class="submenu-title">Air Freshener</a>
+                </li>
+    
+              </ul>
+    
+            </li>
+    
+            <li class="menu-category">
+              <a href="#footer" class="menu-title">About</a>
+            </li>
+    
+            <li class="menu-category">
+              <a href="#reviews" class="menu-title">Reviews</a>
+            </li>
+
+            <li class="menu-category">
+              <a href="#footer" class="menu-title">Contact</a>
+            </li>
+    
+    
+    
+          </ul>
+    
+          <div class="menu-bottom">
+    
+            <ul class="menu-social-container">
+    
+              <li>
+                <a href="#" class="social-link">
+                  <i class="uil uil-facebook"></i>
+                </a>
+              </li>
+    
+              <li>
+                <a href="#" class="social-link">
+                  <i class="uil uil-instagram-alt"></i>
+                </a>
+              </li>
+    
+              <li>
+                <a href="#" class="social-link">
+                  <i class="uil uil-twitter"></i>
+                </a>
+              </li>
+    
+              <li>
+                <a href="#" class="social-link">
+                  <i class="uil uil-telegram"></i>
+                </a>
+              </li>
+    
+            </ul>
+    
+          </div>
+    
+        </nav>
+
+        <div class="mobile__filter has-scrollbar" data-mobile-filter>
+          <div class="menu-top">
+            <h2 class="menu-title">FILTER</h2>
+    
+            <button class="menu-close-btn" data-mobile-menu-close-filter>
+              <i class="uil uil-multiply"></i>
+            </button>
+          </div>
+
+          <div class="sitebar" id="sidebar__mobile">
+            <h2>Select filder</h2>
+            <h3>Most Like</h3>
+            <div class="filder">
+                <input type="Checkbox"> <p>Bakery & cafe</p> <span>(10)</span>
+            </div>
+            <div class="filder">
+                <input type="Checkbox"> <p>Briyani</p> <span>(9)</span>
+            </div>
+            <div class="filder">
+                <input type="Checkbox"> <p>Pizza</p> <span>(5)</span>
+            </div>
+            <div class="filder">
+                <input type="Checkbox"> <p>Hamburger</p> <span>(5)</span>
+            </div>
+            <div class="filder">
+                <input type="Checkbox"> <p>Dal</p> <span>(1)</span>
+            </div>
+            <h3>Country</h3>
+            <div class="filder">
+                <input type="Checkbox"> <p>African Food</p> <span>(6)</span>
+            </div>
+            <div class="filder">
+                <input type="Checkbox"> <p>African</p> <span>(2)</span>
+            </div>
+            <div class="filder">
+                <input type="Checkbox"> <p>Chinese</p> <span>(4)</span>
+            </div>
+            <div class="filder">
+                <input type="Checkbox"> <p>Indian</p> <span>(65+)</span>
+            </div>
+            <div class="filder">
+                <input type="Checkbox"> <p>Sri Lanka</p> <span>(30+)</span>
+            </div>
+
+            <div class="sidebar-link">
+                <a href="#">View More</a>
+            </div>
+         </div>
+        </div>
+
+        <!-- <div class="mobile_food-filter">
+          <i class="uil uil-filter"></i>
+        </div> -->
+    
+    
+      </nav>
+    
+    </header>
+
+
+
+    <!--==================  HOME SECTION ====================-->
+     <!-- --|| Banner -->
+    <section class="home" id="home">
+      
+      <div class="container home__wrapper">
+
+        <div class="home-text">
+
+          <h6 class="home__subtile">Delicious Food</h6>
+
+          <h1>Reserve Your Table
+            & Order Your Meal</h1>
+
+          <p>Find Your favorite food</p>
+
+          <div class="latter">
+
+            <form class="search__form">
+
+              <input type="text" placeholder="Search..." required/>
+              <input type="submit" value="Let's Start" required/>
+
+            </form>
+
+          </div>
+
+        </div>
+    
+        <div class="home__img">
+          <img src="./img/banner/home-0.png" class="home_banner">
+        </div>
+
+      </div>
+
+    </section>
+   
+    <!--==================  HOME MENU SECTION ====================-->
+    <section class="home__menu">
+
+      <div class="container homeMenu__wrapper">
+
+        <div class="home_menu--card">
+
+          <div class="home_menu--img">
+            <img src="./img/food/tranding-food-0.png" alt="" class="home_menu-pic">
+          </div>
+
+          <div class="menu__overlay">
+            <p class="home__menu--title">Your favorite</p>
+            <span class="homeMenu_sub--info">
+              4.8(3781) delivery reviews
+            </span>
+
+            <span class="delivery__info">Limited Free delivery</span>
+          </div>
+
+          <div class="home__orderBtn">
+            <a href="#" class="order__btn">Order Now</a>
+            <span class="home_menu--price">1200LKR</span>
+          </div>
+
+        </div>
+
+        <div class="home_menu--card">
+
+          <div class="home_menu--img">
+            <img src="./img/food/tranding-food-1.jpg" alt="" class="home_menu-pic">
+          </div>
+
+          <div class="menu__overlay">
+            <p class="home__menu--title">Your favorite</p>
+            <span class="homeMenu_sub--info">
+              4.8(3781) delivery reviews
+            </span>
+
+            <span class="delivery__info">Limited Free delivery</span>
+          </div>
+
+          <div class="home__orderBtn">
+            <a href="#" class="order__btn">Order Now</a>
+            <span class="home_menu--price">1200LKR</span>
+          </div>
+
+        </div>
+
+        <div class="home_menu--card">
+
+          <div class="home_menu--img">
+            <img src="./img/food/tranding-food-2.jpg" alt="" class="home_menu-pic">
+          </div>
+
+          <div class="menu__overlay">
+            <p class="home__menu--title">Your favorite</p>
+            <span class="homeMenu_sub--info">
+              4.8(3781) delivery reviews
+            </span>
+
+            <span class="delivery__info">Limited Free delivery</span>
+          </div>
+
+          <div class="home__orderBtn">
+            <a href="#" class="order__btn">Order Now</a>
+            <span class="home_menu--price">1200LKR</span>
+          </div>
+
+        </div>
+
+
+        <div class="home_menu--card">
+
+          <div class="home_menu--img">
+            <img src="./img/food/tranding-food-3.jpg" alt="" class="home_menu-pic">
+          </div>
+
+          <div class="menu__overlay">
+
+            <p class="home__menu--title">Your favorite</p>
+            
+            <span class="homeMenu_sub--info">
+              4.8(3781) delivery reviews
+            </span>
+
+            <span class="delivery__info">Limited Free delivery</span>
+          </div>
+
+          <div class="home__orderBtn">
+            <a href="#" class="order__btn">Order Now</a>
+             <span class="home_menu--price">1200LKR</span>
+          </div>
+
+        </div>
+
+      </div>
+
+    </section>
+
+    <!--==================  TODAY SPECIAL SECTION ====================-->
+    <section class="special" id="special">
+
+      <div class="container">
+
+        <h2 class="section__title">Today Special</h2>
+
+        <div class="special__wrapper">
+
+          <div class="sidebar__box">
+            <div class="sitebar">
+              <h2>Select filder</h2>
+              <h3>Most Like</h3>
+              <div class="filder">
+                  <input type="Checkbox"> <p>Bakery & cafe</p> <span>(10)</span>
+              </div>
+              <div class="filder">
+                  <input type="Checkbox"> <p>Briyani</p> <span>(9)</span>
+              </div>
+              <div class="filder">
+                  <input type="Checkbox"> <p>Pizza</p> <span>(5)</span>
+              </div>
+              <div class="filder">
+                  <input type="Checkbox"> <p>Hamburger</p> <span>(5)</span>
+              </div>
+              <div class="filder">
+                  <input type="Checkbox"> <p>Dal</p> <span>(1)</span>
+              </div>
+              <h3>Country</h3>
+              <div class="filder">
+                  <input type="Checkbox"> <p>African Food</p> <span>(6)</span>
+              </div>
+              <div class="filder">
+                  <input type="Checkbox"> <p>African</p> <span>(2)</span>
+              </div>
+              <div class="filder">
+                  <input type="Checkbox"> <p>Chinese</p> <span>(4)</span>
+              </div>
+              <div class="filder">
+                  <input type="Checkbox"> <p>Indian</p> <span>(65+)</span>
+              </div>
+              <div class="filder">
+                  <input type="Checkbox"> <p>Sri Lanka</p> <span>(30+)</span>
+              </div>
+  
+              <div class="sidebar-link">
+                  <a href="#">View More</a>
+              </div>
+           </div>
+          </div>
+        
+  
+          <div class="food__content">
+
+            <div class="food__cart">
+
+              <div class="food__card--img">
+
+                <img src="./img/food/food-galler-img-1.jpg" alt="Food images"/>
+
+              </div>
+
+              <div class="food__card--bottom">
+
+                <h3 class="food__name">Chicken Curry</h3>
+                <span class="rating"><i class="uil uil-favorite rating__icon"></i>4.8(3781) delivery reviews</span>
+                <p class="price__tag"><i class="uil uil-map-marker-alt location__icon"></i><span>$70</span> Per Person <span>30</span> min <span>Free</span> delivery</p>
+
+              </div>
+
+              <div class="foodCard__orderBtn">
+                <a href="#" class="buy__btn">Order Now</a>
+              </div>
+              
+            </div>
+
+            <div class="food__cart">
+
+              <div class="food__card--img">
+
+                <img src="./img/food/food-galler-img-2.jpg" alt="Food images"/>
+
+              </div>
+
+              <div class="food__card--bottom">
+
+                <h3 class="food__name">Chicken Curry</h3>
+                <span class="rating"><i class="uil uil-favorite rating__icon"></i>4.8(3781) delivery reviews</span>
+                <p class="price__tag"><i class="uil uil-map-marker-alt location__icon"></i><span>$70</span> Per Person <span>30</span> min <span>Free</span> delivery</p>
+
+
+              </div>
+
+              <div class="foodCard__orderBtn">
+                <a href="#" class="buy__btn">Order Now</a>
+              </div>
+              
+            </div>
+
+            <div class="food__cart">
+
+              <div class="food__card--img">
+
+                <img src="./img/food/food-galler-img-3.jpg" alt="Food images"/>
+
+              </div>
+
+              <div class="food__card--bottom">
+
+                <h3 class="food__name">Chicken Curry</h3>
+                <span class="rating"><i class="uil uil-favorite rating__icon"></i>4.8(3781) delivery reviews</span>
+                <p class="price__tag"><i class="uil uil-map-marker-alt location__icon"></i><span>$70</span> Per Person <span>30</span> min <span>Free</span> delivery</p>
+
+
+              </div>
+
+              <div class="foodCard__orderBtn">
+                <a href="#" class="buy__btn">Order Now</a>
+              </div>
+              
+            </div>
+
+            <div class="food__cart">
+
+              <div class="food__card--img">
+
+                <img src="./img/food/food-galler-img-4.jpg" alt="Food images"/>
+
+              </div>
+
+              <div class="food__card--bottom">
+
+                <h3 class="food__name">Chicken Curry</h3>
+                <span class="rating"><i class="uil uil-favorite rating__icon"></i>4.8(3781) delivery reviews</span>
+                <p class="price__tag"><i class="uil uil-map-marker-alt location__icon"></i><span>$70</span> Per Person <span>30</span> min <span>Free</span> delivery</p>
+
+
+              </div>
+
+              <div class="foodCard__orderBtn">
+                <a href="#" class="buy__btn">Order Now</a>
+              </div>
+              
+            </div>
+
+            <div class="food__cart">
+
+              <div class="food__card--img">
+
+                <img src="./img/food/food-galler-img-5.jpg" alt="Food images"/>
+
+              </div>
+
+              <div class="food__card--bottom">
+
+                <h3 class="food__name">Chicken Curry</h3>
+                <span class="rating"><i class="uil uil-favorite rating__icon"></i>4.8(3781) delivery reviews</span>
+                <p class="price__tag"><i class="uil uil-map-marker-alt location__icon"></i><span>$70</span> Per Person <span>30</span> min <span>Free</span> delivery</p>
+
+
+              </div>
+
+              <div class="foodCard__orderBtn">
+                <a href="#" class="buy__btn">Order Now</a>
+              </div>
+              
+            </div>
+
+            <div class="food__cart">
+
+              <div class="food__card--img">
+                <img src="./img/food/food-galler-img-6.jpg" alt="Food images"/>
+              </div>
+
+              <div class="food__card--bottom">
+                <h3 class="food__name">Chicken Curry</h3>
+                <span class="rating"><i class="uil uil-favorite rating__icon"></i>4.8(3781) delivery reviews</span>
+                <p class="price__tag"><i class="uil uil-map-marker-alt location__icon"></i><span>$70</span> Per Person <span>30</span> min <span>Free</span> delivery</p>
+              </div>
+
+              <div class="foodCard__orderBtn">
+                <a href="#" class="buy__btn">Order Now</a>
+              </div>
+              
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </section>
+    <!--==================  FEATURES SECTION ====================-->
+    <section class="features">
+
+      <div class="feature__wrapper">
+
+        <div class="feature__image">
+          <img src="./img/banner/delivery-img.png" alt="Delivery image"/>
+        </div>
+
+        <div class="feature__text">
+
+          <h2 class="fuature__hero--title">
+            Why You Use Our Food
+            Delivery Service?
+          </h2>
+
+          <p class="feature__subTitle">
+            We are most fastest favourite food delivery service
+            all over the world.Search for your favourite food or
+            restaurant in your area
+          </p>
+
+          <ul class="feature__list">
+
+            <li class="feature__item">
+              <div class="feature__img">
+                <img src="./img/banner/reviews.png" alt="image"/>
+              </div>
+
+              <p class="feature_text--info">98.97% Positive reviews</p>
+            </li>
+
+            <li class="feature__item">
+              <div class="feature__img">
+                <img src="./img/banner/food.png" alt="image"/>
+              </div>
+
+              <p class="feature_text--info">Quality foods with discounts</p>
+            </li>
+
+            <li class="feature__item">
+              <div class="feature__img">
+                <img src="./img/banner/time.png" alt="image"/>
+              </div>
+
+              <p class="feature_text--info">2x Faster than others delivery service</p>
+            </li>
+
+
+          </ul>
+
+          <a href="#" class="order">Order Your Food Now</a>
+
+        </div>
+
+      </div>
+
+    </section>
+    <!--==================  MOST POPULAR SECTION ====================-->
+    <section class="mostPopular">
+
+      <h2 class="section__title">Combo Offer</h2>
+
+      <div class="popular__wrapper">
+
+        <div class="food__cart">
+
+          <div class="food__card--img">
+
+            <img src="./img/food/offer-4.png" alt="Food images"/>
+
+          </div>
+
+          <div class="food__card--bottom">
+
+            <h3 class="food__name">Pita Bread</h3>
+            <span class="rating"><i class="uil uil-favorite rating__icon"></i>4.8(3781) delivery reviews</span>
+          </div>
+
+          <div class="foodCard__orderBtn">
+            <a href="#" class="buy__btn">Order Now</a>
+          </div>
+          
+        </div>
+
+
+        <div class="food__cart">
+
+          <div class="food__card--img">
+
+            <img src="./img/food/offer-2.png" alt="Food images"/>
+
+          </div>
+
+          <div class="food__card--bottom">
+
+            <h3 class="food__name">Coke|Pizza|Burger</h3>
+            <span class="rating"><i class="uil uil-favorite rating__icon"></i>4.8(3781) delivery reviews</span>
+          
+          </div>
+
+          <div class="foodCard__orderBtn">
+            <a href="#" class="buy__btn">Order Now</a>
+          </div>
+          
+        </div>
+
+        <div class="food__cart">
+
+          <div class="food__card--img">
+
+            <img src="./img/food/offer-1.png" alt="Food images"/>
+
+          </div>
+
+          <div class="food__card--bottom">
+
+            <h3 class="food__name">Burger|Chips</h3>
+            <span class="rating"><i class="uil uil-favorite rating__icon"></i>4.8(3781) delivery reviews</span>
+
+
+          </div>
+
+          <div class="foodCard__orderBtn">
+            <a href="#" class="buy__btn">Order Now</a>
+          </div>
+          
+        </div>
+
+        <div class="food__cart">
+
+          <div class="food__card--img">
+
+            <img src="./img/food/offer-0.png" alt="Food images"/>
+
+          </div>
+
+          <div class="food__card--bottom">
+
+            <h3 class="food__name">Burger|Ships|Pepsi</h3>
+            <span class="rating"><i class="uil uil-favorite rating__icon"></i>4.8(3781) delivery reviews</span>
+    
+
+          </div>
+
+          <div class="foodCard__orderBtn">
+            <a href="#" class="buy__btn">Order Now</a>
+          </div>
+          
+        </div>
+
+      </div>
+
+    </section>
+
+    <!--==================  REVIEWS SECTION ====================-->
+    <section class="reviews" id="reviews">
+      <h2 class="section__title">Costomer Say</h2>
+      <div class="reviews__container">
+           <div class="card">
+            <div class="face face1">
+              <div class="reviews__content">
+                <img src="./img/user/review_1.png" alt="">
+              </div>
+            </div>
+
+            <div class="face face2">
+              <div class="reviews__text">
+                <h3>Hanshika</h3>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Quibusdam sed iusto repellendus sit voluptate aspernatur
+                  laborum quod eveniet nulla veniam!
+                </p>
+              </div>
+            </div>
+           </div>
+
+           <div class="card">
+            <div class="face face1">
+              <div class="reviews__content">
+                <img src="./img/user/review_2.png" alt="">
+              </div>
+            </div>
+
+            <div class="face face2">
+              <div class="reviews__text">
+                <h3>Rishanchran</h3>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Quibusdam sed iusto repellendus sit voluptate aspernatur
+                  laborum quod eveniet nulla veniam!
+                </p>
+              </div>
+            </div>
+           </div>
+
+           <div class="card">
+            <div class="face face1">
+              <div class="reviews__content">
+                <img src="./img/user/review_3.png" alt="">
+              </div>
+            </div>
+
+            <div class="face face2">
+              <div class="reviews__text">
+                <h3>Kerthuka</h3>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Quibusdam sed iusto repellendus sit voluptate aspernatur
+                  laborum quod eveniet nulla veniam!
+                </p>
+              </div>
+            </div>
+           </div>
+
+           <div class="card">
+            <div class="face face1">
+              <div class="reviews__content">
+                <img src="./img/user/review_4.png" alt="">
+              </div>
+            </div>
+
+            <div class="face face2">
+              <div class="reviews__text">
+                <h3>Kavish</h3>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Quibusdam sed iusto repellendus sit voluptate aspernatur
+                  laborum quod eveniet nulla veniam!
+                </p>
+              </div>
+            </div>
+           </div>
+      </div>
+    </section>
+
+   <!--==================  FOOTER SECTION ====================-->
+    <footer class="footer" id="footer">
+      <div class="footer__wrapper">
+
+        <div class="social-media-contant">
+
+          <div class="links footer_title">
+            <h6>Social Media</h6>
+
+            <ul class="follow__us">
+              <li>
+                <a href="#" class="social-link">
+                  <i class="uil uil-facebook"></i>
+                </a>
+              </li>
+    
+              <li>
+                <a href="#" class="social-link">
+                  <i class="uil uil-instagram-alt"></i>
+                </a>
+              </li>
+    
+              <li>
+                <a href="#" class="social-link">
+                  <i class="uil uil-twitter"></i>
+                </a>
+              </li>
+    
+              <li>
+                <a href="#" class="social-link">
+                  <i class="uil uil-telegram"></i>
+                </a>
+              </li>
+            </ul>
+            
+          </div>
+        </div>
+
+        <div class="servise footer_title">
+          <h6>Our servise</h6>
+          <a href="#">Online Orders</a>
+          <a href="#">Pre-Reservation</a>
+          <a href="#">24/7Services</a>
+        </div>
+
+        <div class="Quick-Links footer_title">
+          <h6>Quick-Links</h6>
+          <a href="#">Home</a>
+          <a href="#">Menu</a>
+          <a href="#">Special</a>
+          <a href="#">Offers</a>
+        </div>
+
+        <div class="about-Links footer_title">
+          <h6>About</h6>
+          <a href="#">Our Story</a>
+          <a href="#">Benifits</a>
+          <a href="#">Career</a>
+        </div>
+
+
+        <div class="Quick-Links footer_title">
+          <h6>Help</h6>
+          <a href="#">Contact</a>
+          <a href="#">Support</a>
+          <a href="#">FAQ</a>
+        </div>
+
+        <div class="Contact-info footer_title"></div>
+      </div>
+
+      <span class="footer__copy">&#169; V.Rishan. All rigths reserved</span>
+    </footer>
+
+
+    
+
+
+     <!--==================  JAVASCRIPT SECTION ====================-->
+     <script src="./js/script.js"></script>
+</body>
+</html>
